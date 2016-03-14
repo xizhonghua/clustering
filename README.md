@@ -8,21 +8,16 @@ A Simple C++ Clustering Library
 ### Usage
 ```C++
 #include <iostream>
-#include <string>
-
-#include "../libclustering/Clustering.h"
-#include "../libclustering/util/EigenIOHelper.h"
-
+#include "libclustering/Clustering.h"
 using namespace masc::clustering;
-using namespace masc::clustering::util;
 
 int main(int argc, char** argv) {
-  MatrixXd X = EigenIOHelper::loadMatrix("noisy_moons.txt");
-  KMeans kmeans;
-  kmeans.setNClusters(2).setMaxIter(100).setNInit(20).setVerbosity(2);
+  auto X = Eigen::MatrixXd::Random(100, 3);
+  KMeans kmeans(4);
   auto labels = kmeans.fit_predit(X);
-  EigenIOHelper::save("labels.txt", labels);
-  return 0;
+
+  for (int i = 0; i < labels.rows(); ++i)
+    std::cout << X.row(i) << " " << labels(i) << std::endl;
 }
 ```
 
