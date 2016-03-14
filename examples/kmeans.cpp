@@ -4,14 +4,6 @@
  *  Created on: Mar 13, 2016
  *      Author: zxi
  */
-
-/*
- * kmeans.cpp
- *
- *  Created on: Mar 12, 2016
- *      Author: zxi
- */
-
 #include <iostream>
 #include "libclustering/Clustering.h"
 using namespace masc::clustering;
