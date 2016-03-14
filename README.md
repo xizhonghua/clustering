@@ -26,6 +26,11 @@ int main(int argc, char** argv) {
 }
 ```
 
+### Build
+```bash
+./gen.sh && cd build/release/ && make
+```
+
 ### Dependencies
 * For use the lib:
   * Eigen >= 3
