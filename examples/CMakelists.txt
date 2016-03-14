@@ -1,0 +1,4 @@
+add_executable(comparison comparison.cpp)
+include_directories("/opt/local/include/eigen3/")
+target_link_libraries(comparison clustering)
+
