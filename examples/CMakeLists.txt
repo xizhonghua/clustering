@@ -2,7 +2,7 @@ add_executable(comparison comparison.cpp)
 
 include_directories(
   ${PROJECT_SOURCE_DIR}
-  "/opt/local/include/eigen3/"
+  ${EIGEN3_INCLUDE_DIR}
 )
 
 file(COPY 
