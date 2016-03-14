@@ -21,7 +21,7 @@ int main(int argc, char** argv) {
 }
 ```
 
-### Results
+### Comparison
 ![Comparison](examples/figs/comparison.png?raw=true "Comparison of clustering methods")
 
 
