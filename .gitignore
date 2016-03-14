@@ -5,6 +5,10 @@ build/*
 # temp files
 .DS_Store
 
+# project file
+.cproject
+.project
+
 # Compiled Object files
 *.slo
 *.lo
