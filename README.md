@@ -30,5 +30,5 @@ int main(int argc, char** argv) {
 * For use the lib:
   * Eigen >= 3
 * For visualization:
-  * matlibplot
+  * matplotlib
   * numpy 
