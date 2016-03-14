@@ -12,8 +12,8 @@
 #include <cstdlib>
 #include <ctime>
 
-#include "../libclustering/Clustering.h"
-#include "../libclustering/util/EigenIOHelper.h"
+#include "libclustering/Clustering.h"
+#include "libclustering/util/EigenIOHelper.h"
 
 using namespace masc::clustering;
 using namespace masc::clustering::util;

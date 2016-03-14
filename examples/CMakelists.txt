@@ -1,4 +1,15 @@
 add_executable(comparison comparison.cpp)
-include_directories("/opt/local/include/eigen3/")
+
+include_directories(
+  ${PROJECT_SOURCE_DIR}
+  "/opt/local/include/eigen3/"
+)
+
+file(COPY 
+      "noisy_moons.txt"
+      "comparison.py"      
+    DESTINATION 
+      ${CMAKE_CURRENT_BINARY_DIR})
+
 target_link_libraries(comparison clustering)
 
