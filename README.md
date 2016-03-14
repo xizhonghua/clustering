@@ -21,6 +21,10 @@ int main(int argc, char** argv) {
 }
 ```
 
+### Results
+![Comparison](examples/figs/comparison.png?raw=true "Comparison of clustering methods")
+
+
 ### Build
 ```bash
 ./gen.sh && cd build/release/ && make
