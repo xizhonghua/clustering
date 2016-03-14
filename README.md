@@ -1,9 +1,13 @@
 # Clustering
 A Simple C++ Clustering Library
 
-### Supported Methods
-* KMenas
-* Spectral Clustering
+### Features
+* Sci-kit Learn like APIs
+* Supoorted methods: KMenas, Spectral Clustering
 
 ### Dependencies
-* Eigen >= 3
+* For use the lib:
+  * Eigen >= 3
+* For visualization:
+  * matlibplot
+  * numpy 
