@@ -27,7 +27,9 @@ int main(int argc, char** argv) {
 ```
 
 ### Build
-* ./gen.sh && cd build/release/ && make
+```bash
+./gen.sh && cd build/release/ && make
+```
 
 ### Dependencies
 * For use the lib:
